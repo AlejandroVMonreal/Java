@@ -1,9 +1,8 @@
 import java.util.ArrayList;
-import java.util.Scanner;
+
 
 public class MiArrayList {
     ArrayList<Integer> list = new ArrayList<>();
-    Scanner scanner = new Scanner(System.in);
 
     public void agregar(int num){
         list.add(num);
